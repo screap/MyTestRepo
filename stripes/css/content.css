@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+#contactForm input, #contactForm textarea, #contactForm select {
+	width:300px;
+}

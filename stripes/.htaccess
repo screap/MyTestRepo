@@ -1,0 +1,5 @@
+AddDefaultCharset utf-8
+AddType text/x-component .htc
+RewriteEngine on 
+RewriteRule ^([//_0-9a-zA-Z]+)/$ index.php?item=$1 [L]
+RewriteRule ^([//_0-9a-zA-Z]+)$ index.php?item=$1 [L]
